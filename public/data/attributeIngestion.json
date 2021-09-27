@@ -1,0 +1,32 @@
+[
+     {
+          "id": 1,
+          "key": "hardDriveCapacity",
+          "displayName": "Hard Drive Capacity"
+     },
+     {
+          "id": 2,
+          "key": "brand",
+          "displayName": "Brand"
+     },
+     {
+          "id": 3,
+          "key": "colour",
+          "displayName": "Colour"
+     },
+     {
+          "id": 4,
+          "key": "resolution",
+          "displayName": "Resolution"
+     },
+     {
+          "id": 5,
+          "key": "ramSize",
+          "displayName": "RAM Size"
+     },
+     {
+          "id": 6,
+          "key": "modelType",
+          "displayName": "ModelType"
+     }
+]

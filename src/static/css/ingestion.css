@@ -1,0 +1,12 @@
+.scroller {
+  height: 200px;
+  overflow: auto;
+}
+
+.ingestion.p-dialog .p-dialog-content {
+  padding: 0 !important;
+}
+
+.ingestion.p-dialog .p-dialog-header {
+  padding: 1rem !important;
+}

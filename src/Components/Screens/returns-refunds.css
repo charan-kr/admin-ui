@@ -1,0 +1,50 @@
+.container h1 {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.card {
+	border: 1rem solid #e3f4f8;
+}
+
+.container .card .card-body {
+	color: #fff;
+	background-color: #0067a0;
+}
+
+.card .card-width {
+	width: 25rem;
+}
+
+.body-details .card-side-heading {
+	padding: 0px;
+	font-weight: 500;
+}
+
+.body-details .card-1-font {
+	font-size: 16px;
+}
+.body-details .card-2-font .card-2-font-label {
+	font-size: 20px;
+}
+.body-details .card-2-font {
+	font-size: 16px;
+}
+.faq-headers .chevron-icon {
+	font-weight: bold;
+	color: #0067a0;
+	align-items: center;
+}
+.faq-headers .faq-font {
+	font-size: 16px;
+}
+.faq-body .p-toggleable-content .p-panel-content {
+	padding-left: 40px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	border: none !important;
+}
+
+.faq-body .p-panel-content p {
+	margin: 0 !important;
+}

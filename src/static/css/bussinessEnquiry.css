@@ -1,0 +1,31 @@
+.p-column-filter {
+    width: 38%;
+}
+.product-badge {
+    border-radius: 2px;
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+
+.product-badge.status-NEW{
+    background: hsl(122, 71%, 47%);
+    color: blue;
+    left: -31px;
+
+}
+    
+.product-badge.status-REVIEWED {
+    background: #FFCDD2;
+    color: #C63737;
+    left: -31px;
+}
+
+.product-badge.status-CLOSED {
+    background: #FEEDAF;
+    color: #8A5340;
+    left: -31px;
+}

@@ -1,0 +1,27 @@
+.flexgrid-demo 
+    .box {
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+
+    .box-stretched {
+        height: 100%;
+    }
+
+    .vertical-container {
+        margin: 0;
+        background: var(--surface-d);
+    }
+  
+    .nested-grid .p-col-4 {
+        padding-bottom: 1rem;
+    }
+.custombar1
+{
+    text-decoration: none;
+    border-right: 2px solid;
+}
+a
+{
+    text-decoration: none;
+}

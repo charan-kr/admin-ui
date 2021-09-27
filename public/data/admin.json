@@ -1,0 +1,17 @@
+{
+     "productId": "1",
+     "gtin": "545454545324",
+     "isbn": "1234353",
+     "variants": true,
+     "productName": "apple",
+     "productCategoryName": "Electronics",
+     "productSubCategoryName": "Mobile",
+     "brand": "Apple",
+     "Manufacturer": "Apple",
+     "detailedAttributes":[ "Model"],
+     "tags": [
+          "abc",
+          "apple"
+     ]
+  
+}

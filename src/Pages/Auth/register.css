@@ -1,0 +1,23 @@
+.seller {
+    border: cover;
+    background-repeat: no-repeat;
+    background-color: #e3f0f0d5;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 420px;
+    box-shadow: 40px;
+    height: 450px;
+}
+
+.register {
+    color: black;
+}
+
+.title {
+    color: black;
+}
+
+.inputTex {
+    width: 50px;
+    background-color: #FAB710;
+}

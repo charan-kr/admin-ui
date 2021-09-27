@@ -1,0 +1,36 @@
+[
+     {
+          "productId": "1",
+          "gtin": "545454545324",
+          "isbn": "1234353",
+          "variants": true,
+          "productCategoryName": "apple",
+          "Category": "Electronics",
+          "productSubCategoryName": "Mobile",
+          "brand": "Apple",
+          "manufacturer": "Apple",
+          "detailedAttributes":[ "Model"],
+          "tags": [
+               "abc",
+               "apple"
+          ]
+       
+     },
+     {
+          "productId": "1",
+          "gtin": "545454545324",
+          "isbn": "1234353",
+          "variants": true,
+          "productCategoryName": "apple",
+          "Category": "Electronics",
+          "productSubCategoryName": "Mobile",
+          "brand": "Apple",
+          "manufacturer": "Apple",
+          "detailedAttributes":[ "Model"],
+          "tags": [
+               "abc",
+               "apple"
+          ]
+       
+     }
+]

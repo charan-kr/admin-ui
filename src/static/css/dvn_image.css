@@ -1,0 +1,14 @@
+.product-image {
+    border: 2px solid #ddd;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer,
+}
+
+.product-image:hover {
+    border: 2px solid #222
+}
+
+.product-image.active {
+    border: 2px solid orange
+}

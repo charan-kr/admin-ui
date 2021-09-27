@@ -1,0 +1,277 @@
+[
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f636664746",
+    "question": "when will my order ship?",
+    "groupName": "Popular Questions",
+    "answer": "We are not able to make any changes to an order or cancel it once it has been placed. We include pre-paid return labels in all orders placed within the US, and we’re happy to assist you with returning an order once you receive it.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f63666474d",
+    "question": "How do I track my order?",
+    "groupName": "Popular Questions",
+    "answer": "We are not able to make any changes to an order or cancel it once it has been placed. We include pre-paid return labels in all orders placed within the US, and we’re happy to assist you with returning an order once you receive it.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f63666476d",
+    "question": "How do I cancel or change my order?",
+    "groupName": "Popular Questions",
+    "answer": "dolphnsIndia",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f63666446d",
+    "question": "what is your return and exchange policy?",
+    "groupName": "Placing Order",
+    "answer": "All orders must be returned within 30 days of purchase for a full refund. Returned items must be in the exact same condition as they were received.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f63664746d",
+    "question": "Final size?",
+    "groupName": "Placing Order",
+    "answer": "We’re happy to offer the option to pre-order select new styles that are not yet available to ship. The estimated shipping date will be indicated on the product description page. Pre-order products are susceptible to unforeseen processing delays, so we unfortunately cannot guarantee dates for these items. Orders are processed pending item availability and credit card verification. You’ll get an email from our customer service team if there are any issues with your order.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f66664746d",
+    "question": " Online Promotions?",
+    "groupName": "Placing Order",
+    "answer": "dolphnsIndia",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "Placing Order",
+    "answer": "We do not offer price adjustments at this time.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+
+  {
+    "id": "73f8da09-d188-407-9fd3-4f636664746d",
+    "question": "Out of Stock ?",
+    "groupName": "Placing Order",
+    "answer": "While we do our best to make sure our website reflects exactly what’s stored in our inventory, please note that updates may be delayed during special events, such as End of Season Sale, Online Sample Sale or any other promotional sales.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-188-4070-9fd3-4f636664746d",
+    "question": "Damaged Items ?",
+    "groupName": "Placing Order",
+    "answer": "While we do our best to make sure our website reflects exactly what’s stored in our inventory, please note that updates may be delayed during special events, such as End of Season Sale, Online Sample Sale or any other promotional sales.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9d3-4f636664746d",
+    "question": "Final Sale ?",
+    "groupName": "Placing Order",
+    "answer": "Items indicated as “Final Sale” at the time of purchase are not eligible for return, exchange or merchandise credit. This applies to all purchases made on rebeccaminkoff.com or uriminkoff.com.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "738da09-d188-4070-9fd3-4f636664746d",
+    "question": "Check out ?",
+    "groupName": "Placing Order",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, JCB, Paypal, Amazon Pay, and Afterpay. We only charge you after your order ships—please only click “Place Order” button one time to avoid multiple authorizations.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+
+  {
+    "id": "73f8d9-d188-4070-9fd3-4f636664746d",
+    "question": "SizeGuide?",
+    "groupName": "Placing Order",
+    "answer": " Refer dolphnsIndia.com",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+
+  {
+    "id": "73f8da188-4070-9fd3-4f636664746d",
+    "question": "Gift Cards ?",
+    "groupName": "Placing Order",
+    "answer": "his doesn’t happen often, but if your order was cancelled because the item you selected became no longer available or is out of stock, you’ll hear from us via email within three business days of placing your order. ",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+
+  {
+    "id": "73f46d",
+    "question": "Price Adjustments ?",
+    "groupName": "Order Shipping  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070d",
+    "question": "Price Adjustments ?",
+    "groupName": "Order Shipping  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f9-d188-4070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "Order Shipping  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "8da09-d188-4070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f9070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-098070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-40reet70-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4fo09636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da09-d188-4070-9fd3-4frtyguh636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "My Order  ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+
+  {
+    "id": "73f8dabhsrs09-d188-4070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "Retuns ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  },
+  {
+    "id": "73f8da0rtyrj9-d188-4070-9fd3-4f636664746d",
+    "question": "Price Adjustments ?",
+    "groupName": "Retuns ",
+    "answer": "All orders are fulfilled by our warehouse, located in California within one or two business days from the date of your order confirmation. Our business days are Monday thru Friday, excluding federal holidays within the United States. All orders received before 12pm EST will be processed same day; any orders placed after 12pm EST will be processed on the following business day. Please allow additional processing time for orders placed during sale promotions and on or around federal and U.S. holidays.",
+    "createdBy": "rajesh",
+    "modifiedBy": "kishore",
+    "createdDt": "20-10-2020 10:10 AM",
+    "modifiedDt": "20-10-2020 10:10 AM"
+  }
+]

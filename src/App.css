@@ -1,0 +1,37 @@
+@import url("./static//css/primereact-overrides.css");
+@import url("./static/css/sideNav.css");
+@import url("./static/css/bussinessEnquiry.css");
+@import url("./static/css/ingestion.css");
+@import url("./static/css/Personalization.css");
+@import url("./static/css/dvn_image.css");
+@import url("./static/css/category.css");
+@import url("./static/css/offline.css");
+@import url("./static/css/view360.css");
+@import url("./static/css/custombutton.css");
+@import url("./static/css/DataTable.css");
+@import url("./static/css/Styles.css");
+
+label {
+  font-weight: 500;
+}
+
+#config .p-tooltip-text {
+  width: 250px !important;
+  background-color: whitesmoke !important;
+}
+
+.p-dropdown.filter-card .p-inputtext {
+  padding: 0px 1rem;
+}
+
+.pi .pi-check-circle {
+  color: green !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.h-100 {
+  height: 100% !important;
+}

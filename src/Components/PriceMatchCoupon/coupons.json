@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "couponCode": "NewYear Offer",
+    "offerType": "Coupon",
+    "mode": "Flat",
+    "amount": "600",
+    "percentage": "-",
+    "startDate": "2020/12/20 18:00",
+    "endDate": "2021/01/02 23:59",
+    "status": "Expired",
+    "totalUsage": "2570"
+  },
+  {
+    "id": "2",
+    "couponCode": "Valentine Offer",
+    "offerType": "Voucher",
+    "mode": "Percentage",
+    "amount": "-",
+    "percentage": "10%",
+    "startDate": "2021/02/01",
+    "endDate": "2021/02/15",
+    "status": "Active",
+    "totalUsage": "2570"
+  },{
+    "id": "3",
+    "couponCode": "Independence Offer",
+    "offerType": "Coupon",
+    "mode": "Percentage",
+    "amount": "-",
+    "percentage": "25%",
+    "startDate": "2021/07/25",
+    "endDate": "2021/08/18",
+    "status": "Deactive",
+    "totalUsage": "2570"
+  },{
+    "id": "4",
+    "couponCode": "Diwali Offer",
+    "offerType": "Voucher",
+    "mode": "Flat",
+    "amount": "1000",
+    "percentage": "-",
+    "startDate": "2021/09/01",
+    "endDate": "2021/10/15",
+    "status": "Draft",
+    "totalUsage": "2570"
+  }
+]

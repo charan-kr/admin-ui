@@ -1,0 +1,475 @@
+[
+  {
+    "type": "Message",
+    "id": "intro",
+    "message": "Welcome! 👋Good to see you here. I'm DolphinsBot - a chatbot for DolphinsIndia Primarily, what I do is, I help you to get more comfort on our products to see.",
+    "trigger": "intro-ques",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "intro-ques",
+    "message": "How can I help you with today?",
+    "trigger": "questions",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "questions",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Products",
+        "trigger": "products"
+      },
+      {
+        "value": "2",
+        "label": "Order & Purchases",
+        "trigger": "orders"
+      },
+      {
+        "value": "4",
+        "label": "Others",
+        "trigger": "others"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "products",
+    "message": "Our products lists are",
+    "trigger": "product-types",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "product-types",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Search Products",
+        "trigger": "product-id-msg"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "orders",
+    "message": "Your order lists are",
+    "trigger": "orders-list",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "others",
+    "message": "Sorry, Not availablenCome back later!",
+    "trigger": "help",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "help",
+    "message": "May I Help You with anything else?",
+    "trigger": "help-options",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "help-options",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "yes",
+        "label": "Yes",
+        "trigger": "after-help"
+      },
+      {
+        "value": "no",
+        "label": "No, Thanks",
+        "trigger": "thanks"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "thanks",
+    "message": "Thank you for assisting me, Have a Great Day😊",
+    "trigger": "rating",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "after-help",
+    "message": "Please, Choose any one from below!",
+    "trigger": "questions",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "restart",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Start again",
+        "trigger": "restart-msg"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "restart-msg",
+    "message": "Welcome Back",
+    "trigger": "intro",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "product-id-msg",
+    "message": "Please enter the product id",
+    "trigger": "product-id",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "User",
+    "id": "product-id",
+    "message": "",
+    "trigger": "product-id-component",
+    "options": [],
+    "component": "",
+    "user": true,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "product-id-component",
+    "message": "",
+    "trigger": "id-valid",
+    "options": [],
+    "component": "ProductCheck",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "id-valid",
+    "message": "",
+    "trigger": "help",
+    "options": [],
+    "component": "ListItem",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "id-invalid",
+    "message": "",
+    "trigger": "id-search",
+    "options": [],
+    "component": "Error",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "id-search",
+    "message": "Want to search again",
+    "trigger": "search-options",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "search-options",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Yes,Please",
+        "trigger": "product-id-msg"
+      },
+      {
+        "value": "2",
+        "label": "No thanks",
+        "trigger": "help"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "orders-list",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Your Orders",
+        "trigger": "login-check-order"
+      },
+      {
+        "value": "2",
+        "label": "Track your order",
+        "trigger": "login-check-tracking"
+      },
+      {
+        "value": "3",
+        "label": "Back to menu",
+        "trigger": "after-help"
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "login-check-order",
+    "message": "Seems like you're not login yet, please login to continue",
+    "trigger": "login-order-component",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "login-check-tracking",
+    "message": "Seems like you're not login yet, please login to continue",
+    "trigger": "login-track-component",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "login-order-component",
+    "message": "",
+    "trigger": "order-login-success",
+    "options": [],
+    "component": "LoginCheck",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "login-track-component",
+    "message": "",
+    "trigger": "tracking-login-success",
+    "options": [],
+    "component": "LoginCheck",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "order-login-success",
+    "message": "Login Successfull",
+    "trigger": "order-not-available",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "tracking-login-success",
+    "message": "Login Successfull",
+    "trigger": "order-id-msg",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "order-not-available",
+    "message": "Sorry, No Order history recorded!",
+    "trigger": "help",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "order-id-msg",
+    "message": "Please enter your Order Id",
+    "trigger": "order-id",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "User",
+    "id": "order-id",
+    "message": "",
+    "trigger": "order-tracking-msg",
+    "options": [],
+    "component": "",
+    "user": true,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "order-id-component",
+    "message": "",
+    "trigger": "help",
+    "options": [],
+    "component": "TrackingStatus",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "order-tracking-msg",
+    "message": "Please check your order tracking details in below timeline",
+    "trigger": "order-id-component",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Component",
+    "id": "feedback",
+    "message": "",
+    "trigger": "feedback-msg",
+    "options": [],
+    "component": "Feedback",
+    "user": false,
+    "waitAction": true,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "feedback-msg",
+    "message": "If you want to check out anything else?",
+    "trigger": "final",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Options",
+    "id": "final",
+    "message": "",
+    "trigger": "",
+    "options": [
+      {
+        "value": "1",
+        "label": "Yes",
+        "trigger": "after-help"
+      },
+      {
+        "value": "2",
+        "label": "No",
+        "trigger": ""
+      }
+    ],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  },
+  {
+    "type": "Message",
+    "id": "rating",
+    "message": "Please take a moment to give a rating for this chat😀",
+    "trigger": "feedback",
+    "options": [],
+    "component": "",
+    "user": false,
+    "waitAction": false,
+    "metadata": {}
+  }
+]

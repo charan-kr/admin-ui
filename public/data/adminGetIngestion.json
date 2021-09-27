@@ -1,0 +1,61 @@
+[
+     {
+          "productId": "1",
+          "brand": "iphone1",
+          "manufacturer": "apple",
+          "type": "Product",
+          "Category": "Electronics",
+          "productSubCategoryName": "Mobile",
+          "attributesList": [
+               {
+                    "id": 1,
+                    "key": "hardDriveCapacity",
+                    "displayName": "Hard Drive Capacity"
+               },
+               {
+                    "id": 2,
+                    "key": "brand",
+                    "displayName": "Brand"
+               }
+          ]
+     },
+     {
+          "productId": "2",
+          "brand": "iphone2",
+          "manufacturer": "apple",
+          "type": "Product",
+          "Category": "Electronics",
+          "productSubCategoryName": "Mobile",
+          "attributesList": [
+               {
+                    "id": 1,
+                    "key": "hardDriveCapacity",
+                    "displayName": "Hard Drive Capacity"
+               },
+               {
+                    "id": 2,
+                    "key": "brand",
+                    "displayName": "Brand"
+               }
+          ]
+     },
+     {
+          "productAttributeKeyId": "3",
+         "parentAttributeKeyId":"2",
+          "type": "dvn",
+          "Category": "Electronics",
+          "productSubCategoryName": "Mobile",
+          "dvnAttributes": [
+               {
+                    "id": 1,
+                    "key": "hardDriveCapacity",
+                    "displayName": "Hard Drive Capacity"
+               },
+               {
+                    "id": 2,
+                    "key": "brand",
+                    "displayName": "Brand"
+               }
+          ]
+     }
+]

@@ -1,0 +1,28 @@
+.shipping-policy-container h1,
+h3 {
+	font-weight: 500;
+}
+.shipping-policy-container .table-body .scrollTable {
+	max-height: 50vh;
+	overflow-y: auto;
+	display: block;
+	width: 100%;
+}
+
+.table-body table {
+	display: table;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: initial;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.table-cities tbody td {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 13px;
+	padding: 3px 11px;
+	text-align: left;
+	width: 50%;
+}

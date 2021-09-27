@@ -1,0 +1,7 @@
+.rating .p-rating.stars .p-rating-icon.pi {
+	font-size: 2rem;
+	color: #2198d0;
+}
+.rating .p-rating.stars .p-rating-icon.pi:hover {
+	color: #2198d0 !important;
+}

@@ -1,0 +1,64 @@
+[
+	{
+		"productId": 1,
+		"title": "Iphone",
+		"description": "Branded Mobile",
+		"brand": "apple",
+		"category": "Electronics",
+		"subcategory": "Mobiles",
+		"createddt": "2021-02-17T19:22:04-05:00",
+		"modifieddt": "2021-02-17T19:22:04-05:00",
+		"publisheddt": "2007-12-31T19:00:00-05:00",
+		"uitemplate": null,
+		"tags": [
+			"abc",
+			"apple"
+		],
+		"productType": "Regular",
+		"productName": "Iphone",
+		"manufacturer": "Appe",
+		"productAttributes": [
+			{
+				"id": 1,
+				"key": "hardDriveCapacity",
+				"value": "400"
+			},
+			{
+				"id": 2,
+				"key": "brand",
+				"value": "iphone"
+			}
+		]
+	},
+	{
+		"productId": 2,
+		"title": "Iphone",
+		"description": "Branded Mobile",
+		"brand": "apple",
+		"category": "Electronics",
+		"subcategory": "Mobiles",
+		"createddt": "2021-02-17T19:22:04-05:00",
+		"modifieddt": "2021-02-17T19:22:04-05:00",
+		"publisheddt": "2007-12-31T19:00:00-05:00",
+		"uitemplate": null,
+		"tags": [
+			"abc",
+			"apple"
+		],
+		"productType": "Regular",
+		"productName": "Iphone",
+		"manufacturer": "Appe",
+		"productAttributes": [
+			{
+				"id": 1,
+				"key": "hardDriveCapacity",
+				"value": "400"
+			},
+			{
+				"id": 2,
+				"key": "brand",
+				"value": "iphone"
+			}
+		]
+	}
+]

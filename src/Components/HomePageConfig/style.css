@@ -1,0 +1,33 @@
+.homeconfig .p-inputtext {
+    box-shadow: none!important;
+}
+
+.homeconfig .p-tabview-nav-link {
+    padding: 0.5rem 1rem!important;
+    box-shadow: none!important;
+}
+
+.homeconfig .section-view,
+.homeconfig .header-footer-align{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.homeconfig .header-footer-align.selected{
+    color: lightgreen;
+}
+
+
+.homeconfig .p-button.p-fileupload-choose{
+    padding: 0.25rem 1rem!important;
+}
+.homeconfig .single-image .image-div {
+    height: 100%!important;
+}
+
+
+
+
+
+
+

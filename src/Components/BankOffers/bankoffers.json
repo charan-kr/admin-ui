@@ -1,0 +1,304 @@
+{
+	"variables": [],
+	"info": {
+		"name": "BankOfferService",
+		"_postman_id": "3e4ed50c-6900-63b1-1d2c-9c71286b24ee",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveBankOffer",
+			"request": {
+				"url": "http://35.200.201.75:8120/authentication-service/app/bankOffer",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmluYXNoMTIzQGdtYWlsLmNvbSIsInNjb3BlcyI6WyJST0xFX0FETUlOIiwiUk9MRV9DUF9DQ19BRE1JTiIsIlJPTEVfQ1BfQ0NfRU1QIiwiUk9MRV9DUF9DQ19NR1IiLCJST0xFX0NQX0NDX09FIiwiUk9MRV9DUF9ES19BRE1JTiIsIlJPTEVfU0VMTEVSIiwiUk9MRV9VU0VSIl0sImlzcyI6Imh0dHA6Ly9kb2xwaGluc2luZGlhLWxvY2FsLmNvbSIsImF1ZCI6Imh0dHA6Ly9kb2xwaGluc2luZGlhLmNvbSIsImlhdCI6MTYzMTcwMjIwNSwiZXhwIjoxNjMxNzA1ODA1fQ.MRp8OwW0_wVju5S7O4K5Y5n-dLZNhY7MW7KKaaJlZZhowVla34HHIVcduV3Gt3HLsGoipfKEPGafJwkp0WVhPA",
+						"description": ""
+					},
+					{
+						"key": "audience",
+						"value": "http://dolphinsindia.com",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "bankOfferId",
+						"value": "string",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": {
+						"active": true,
+						"applicableLevel": "string",
+						"bankOfferId": "string",
+						"conditions": {
+							"applicableWithOtherOffers": true,
+							"onlyFirstTimeTrasactionByCard": true,
+							"usedWithGiftCard": true
+						},
+						"eligiblePaymentType": ["string"],
+						"endDate": "2021-09-28",
+						"exclude": ["string"],
+						"flatDiscountAmount": 0,
+						"include": ["string"],
+						"includedWithGiftCard": true,
+						"kind": "string",
+						"maxDiscountAmount": 0,
+						"maxUsage": 0,
+						"maxUsagePerUser": 0,
+						"minAmountInCart": 0,
+						"offerDetails": {
+							"cardDetails": {
+								"allowedOnAllCards": true,
+								"bankName": "string",
+								"bins": [0],
+								"cardProviderNames": ["string"],
+								"cardTypes": ["string"]
+							},
+							"netBankingDetails": {
+								"bankName": "string"
+							}
+						},
+						"percentage": 0,
+						"sponsor": "string",
+						"startDate": "2021-09-15",
+						"termsAndConditions": "string",
+						"title": "string",
+						"type": "string"
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getBankOffer",
+			"request": {
+				"url": "http://localhost:8110/authentication-service/app/bankOffer",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmluYXNoa3VtYXIxMjNAZ21haWwuY29tIiwic2NvcGVzIjpbIlJPTEVfQURNSU4iXSwiaXNzIjoiaHR0cDovL2RvbHBoaW5zaW5kaWEtbG9jYWwuY29tIiwiYXVkIjoiaHR0cDovL2RvbHBoaW5zaW5kaWEuY29tIiwiaWF0IjoxNjMxNjkyNTQyLCJleHAiOjE2MzE2OTYxNDJ9.ns0jJAixf5MOug8iGcHAg4p91z3uE7I4hGok72ai_KY_MyuabGTEFeBlCwVwskl4zGmXScRomFX8f7a5Ot0i_A",
+						"description": ""
+					},
+					{
+						"key": "audience",
+						"value": "http://dolphinsindia.com",
+						"description": ""
+					},
+					{
+						"key": "bankOfferId",
+						"value": "be092899-9ebe-4af4-ab24-ffded9065e92",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": {
+						"bankOfferId": "be092899-9ebe-4af4-ab24-ffded9065e92",
+						"type": "string",
+						"kind": "string",
+						"percentage": 10,
+						"flatDiscountAmount": 0,
+						"maxDiscountAmount": 0,
+						"minAmountInCart": 0,
+						"title": "string",
+						"eligiblePaymentType": ["string"],
+						"offerDetails": {
+							"cardDetails": {
+								"bankName": "string",
+								"cardProviderNames": ["string"],
+								"cardTypes": ["string"],
+								"allowedOnAllCards": true,
+								"bins": [0]
+							},
+							"netBankingDetails": {
+								"bankName": "string"
+							}
+						},
+						"sponsor": "string",
+						"termsAndConditions": "string",
+						"startDate": "2021-09-15",
+						"includedWithGiftCard": true,
+						"maxUsage": 0,
+						"maxUsagePerUser": 0,
+						"applicableLevel": "string",
+						"include": ["string"],
+						"exclude": ["string"],
+						"conditions": {
+							"applicableWithOtherOffers": true,
+							"onlyFirstTimeTrasactionByCard": true,
+							"usedWithGiftCard": true
+						},
+						"createdAt": "2021-09-15 01:43 pm",
+						"active": true
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "deleteBankOffer",
+			"request": {
+				"url": "http://localhost:8110/authentication-service/app/bankOffer",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmluYXNoa3VtYXIxMjNAZ21haWwuY29tIiwic2NvcGVzIjpbIlJPTEVfQURNSU4iXSwiaXNzIjoiaHR0cDovL2RvbHBoaW5zaW5kaWEtbG9jYWwuY29tIiwiYXVkIjoiaHR0cDovL2RvbHBoaW5zaW5kaWEuY29tIiwiaWF0IjoxNjMxNjkyNTQyLCJleHAiOjE2MzE2OTYxNDJ9.ns0jJAixf5MOug8iGcHAg4p91z3uE7I4hGok72ai_KY_MyuabGTEFeBlCwVwskl4zGmXScRomFX8f7a5Ot0i_A",
+						"description": ""
+					},
+					{
+						"key": "audience",
+						"value": "http://dolphinsindia.com",
+						"description": ""
+					},
+					{
+						"key": "bankOfferId",
+						"value": "e06373cc-86c0-47a0-8c68-444f8c92387f",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": {
+						"active": true,
+						"applicableLevel": "string",
+						"bankOfferId": "string",
+						"conditions": {
+							"applicableWithOtherOffers": true,
+							"onlyFirstTimeTrasactionByCard": true,
+							"usedWithGiftCard": true
+						},
+						"eligiblePaymentType": ["string"],
+						"exclude": ["string"],
+						"flatDiscountAmount": 0,
+						"include": ["string"],
+						"includedWithGiftCard": true,
+						"kind": "string",
+						"maxDiscountAmount": 0,
+						"maxUsage": 0,
+						"maxUsagePerUser": 0,
+						"minAmountInCart": 0,
+						"offerDetails": {
+							"cardDetails": {
+								"allowedOnAllCards": true,
+								"bankName": "string",
+								"bins": [0],
+								"cardProviderNames": ["string"],
+								"cardTypes": ["string"]
+							},
+							"netBankingDetails": {
+								"bankName": "string"
+							}
+						},
+						"percentage": 0,
+						"sponsor": "string",
+						"termsAndConditions": "string",
+						"title": "string",
+						"type": "string"
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "updateBankOffer",
+			"request": {
+				"url": "http://35.200.201.75:8120/authentication-service/app/bankOffer",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmluYXNoMTIzQGdtYWlsLmNvbSIsInNjb3BlcyI6WyJST0xFX0FETUlOIiwiUk9MRV9DUF9DQ19BRE1JTiIsIlJPTEVfQ1BfQ0NfRU1QIiwiUk9MRV9DUF9DQ19NR1IiLCJST0xFX0NQX0NDX09FIiwiUk9MRV9DUF9ES19BRE1JTiIsIlJPTEVfU0VMTEVSIiwiUk9MRV9VU0VSIl0sImlzcyI6Imh0dHA6Ly9kb2xwaGluc2luZGlhLWxvY2FsLmNvbSIsImF1ZCI6Imh0dHA6Ly9kb2xwaGluc2luZGlhLmNvbSIsImlhdCI6MTYzMTcwMjIwNSwiZXhwIjoxNjMxNzA1ODA1fQ.MRp8OwW0_wVju5S7O4K5Y5n-dLZNhY7MW7KKaaJlZZhowVla34HHIVcduV3Gt3HLsGoipfKEPGafJwkp0WVhPA",
+						"description": ""
+					},
+					{
+						"key": "audience",
+						"value": "http://dolphinsindia.com",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "bankOfferId",
+						"value": "string",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": {
+						"bankOfferId": "93cf85d5-cb48-463f-b5b0-625f58f3371c",
+						"type": "string",
+						"kind": "string",
+						"percentage": 10,
+						"flatDiscountAmount": 0,
+						"maxDiscountAmount": 0,
+						"minAmountInCart": 0,
+						"title": "string",
+						"eligiblePaymentType": ["string"],
+						"offerDetails": {
+							"cardDetails": {
+								"bankName": "string",
+								"cardProviderNames": ["string"],
+								"cardTypes": ["string"],
+								"allowedOnAllCards": true,
+								"bins": [0]
+							},
+							"netBankingDetails": {
+								"bankName": "string"
+							}
+						},
+						"sponsor": "string",
+						"termsAndConditions": "string",
+						"startDate": "2021-09-15",
+						"endDate": "2021-09-28",
+						"includedWithGiftCard": true,
+						"maxUsage": 0,
+						"maxUsagePerUser": 0,
+						"applicableLevel": "string",
+						"include": ["string"],
+						"exclude": ["string"],
+						"conditions": {
+							"applicableWithOtherOffers": true,
+							"onlyFirstTimeTrasactionByCard": true,
+							"usedWithGiftCard": true
+						},
+						"createdAt": "2021-09-15 10:38 AM",
+						"active": true
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

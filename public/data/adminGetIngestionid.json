@@ -1,0 +1,20 @@
+{
+     "productId": "1",
+     "brand": "iphone",
+     "manufacturer": "apple",
+     "type": "Product",
+     "Category": "Electronics",
+     "productSubCategoryName": "Mobile",
+     "attributesList": [
+          {
+               "id": 1,
+               "key": "hardDriveCapacity",
+               "displayName": "Hard Drive Capacity"
+          },
+          {
+               "id": 2,
+               "key": "brand",
+               "displayName": "Brand"
+          }
+     ]
+}

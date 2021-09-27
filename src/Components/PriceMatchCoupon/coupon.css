@@ -1,0 +1,19 @@
+.coupon-details label,
+.offer-details label {
+    width: 25%!important;
+    font-weight: 600;
+    color:#666;
+}
+
+.coupon-details div .colen,
+.offer-details div .colen {
+font-size: large;
+color: #bbb;
+margin: 0 1rem;
+}
+
+.edit-coupon .p-datepicker table tr,
+.edit-coupon .p-datepicker table td {
+    padding: 0!important;
+    
+}

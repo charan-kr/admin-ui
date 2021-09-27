@@ -1,0 +1,94 @@
+.navigation {
+  position: fixed;
+  left: -170px;
+  top: 0;
+  z-index: 200;
+  width: 230px;
+  height: 100%;
+
+  background-image: url("https://www.primefaces.org/serenity-react/assets/layout/images/special/bg-moody-light.png");
+  background-size: 240px 100%;
+  background-repeat: no-repeat;
+
+  font-weight: 600;
+  overflow-y: auto;
+  transition: all 0.2s ease-in-out;
+}
+.navigation:hover {
+  transform: translateX(170px);
+}
+.navigation .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.navigation .menu .title {
+  text-transform: uppercase;
+  color: transparent;
+  font-size: x-small;
+  font-weight: 500;
+  text-align: left;
+}
+.navigation:hover .menu .title {
+  color: #fff;
+  font-size: medium;
+}
+.navigation .pi.pi-ellipsis-h {
+  display: inline;
+  text-align: right;
+}
+.navigation:hover .pi.pi-ellipsis-h {
+  display: none;
+}
+
+.navigation ul {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 20px;
+  margin: 0;
+}
+
+h4.sub-title {
+  color: #ddd;
+  text-align: left;
+  font-weight: 400;
+}
+.navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.navigation ul li a:hover {
+  background: rgb(89, 137, 226);
+}
+
+.navigation ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #ddd;
+}
+.navigation ul li .sub-title {
+  color: #eee;
+}
+
+.navigation ul li i {
+  padding-right: 8px;
+}
+
+.navigation ul li .sub {
+  text-align: left;
+  margin-left: 0rem;
+  display: none;
+}
+
+.navigation ul li:hover .sub {
+  display: block;
+}
